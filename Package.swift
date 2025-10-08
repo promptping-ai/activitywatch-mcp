@@ -28,5 +28,14 @@ let package = Package(
                 .product(name: "SwiftDateParser", package: "SwiftDateParser"),
             ]
         ),
+        .testTarget(
+            name: "ActivityWatchMCPTests",
+            dependencies: [
+                "ActivityWatchMCP",
+                .product(name: "MCP", package: "swift-sdk"),
+                .product(name: "Logging", package: "swift-log"),
+                .product(name: "AsyncHTTPClient", package: "async-http-client"),
+            ]
+        ),
     ]
 )
