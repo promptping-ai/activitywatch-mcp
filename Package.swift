@@ -7,7 +7,7 @@ let package = Package(
         .macOS(.v15)
     ],
     products: [
-        .executable(name: "activitywatch-mcp", targets: ["ActivityWatchMCP"]),
+        .executable(name: "activitywatch", targets: ["ActivityWatchMCP"]),
     ],
     dependencies: [
         .package(url: "https://github.com/modelcontextprotocol/swift-sdk.git", from: "0.9.0"),

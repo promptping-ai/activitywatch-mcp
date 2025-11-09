@@ -11,7 +11,7 @@
   "repository": "https://github.com/doozMen/activitywatch-mcp",
   "mcpServers": {
     "activitywatch": {
-      "command": "activitywatch-mcp",
+      "command": "activitywatch",
       "args": ["--log-level", "info"],
       "env": {
         "PATH": "$HOME/.swiftpm/bin:/usr/local/bin:/usr/bin:/bin"
