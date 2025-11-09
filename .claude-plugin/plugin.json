@@ -14,7 +14,7 @@
       "command": "activitywatch",
       "args": ["--log-level", "info"],
       "env": {
-        "PATH": "$HOME/.swiftpm/bin:/usr/local/bin:/usr/bin:/bin"
+        "PATH": "/Users/stijnwillems/.swiftpm/bin:/usr/local/bin:/usr/bin:/bin"
       }
     }
   }
