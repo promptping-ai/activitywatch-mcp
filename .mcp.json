@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "activitywatch": {
+      "command": "activitywatch-mcp",
+      "args": ["--log-level", "info"],
+      "env": {
+        "PATH": "$HOME/.swiftpm/bin:/usr/local/bin:/usr/bin:/bin"
+      }
+    }
+  }
+}

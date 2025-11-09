@@ -1,0 +1,37 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "activitywatch-mcp",
+  "displayName": "ActivityWatch MCP",
+  "description": "Direct ActivityWatch integration with natural language date support. Query time tracking data, analyze folder activity, and run powerful AQL queries.",
+  "version": "2.5.0",
+  "author": {
+    "name": "PromptPing",
+    "email": "stijn@dooz.be",
+    "url": "https://promptping.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doozMen/activitywatch-mcp"
+  },
+  "mcpServers": {
+    "activitywatch": {
+      "command": "activitywatch-mcp",
+      "args": ["--log-level", "info"],
+      "env": {
+        "PATH": "$HOME/.swiftpm/bin:/usr/local/bin:/usr/bin:/bin"
+      }
+    }
+  },
+  "platforms": ["macos"],
+  "minClaudeCodeVersion": "0.1.0",
+  "category": "productivity",
+  "tags": [
+    "activitywatch",
+    "time-tracking",
+    "productivity",
+    "analytics",
+    "natural-language-dates",
+    "aql-queries"
+  ]
+}
