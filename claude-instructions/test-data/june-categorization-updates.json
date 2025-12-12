@@ -1,0 +1,157 @@
+{
+  "updates": [
+    {
+      "date": "2025-06-02",
+      "id": "38eb4664-cf90-4411-b6a2-623a0192308d",
+      "day_type": "side_project",
+      "billable_hours": 0.0,
+      "side_project_hours": 4.7
+    },
+    {
+      "date": "2025-06-03",
+      "id": "35015939-5b90-4827-a3f0-0a61ccea94ae",
+      "day_type": "side_project",
+      "billable_hours": 0.0,
+      "side_project_hours": 7.3
+    },
+    {
+      "date": "2025-06-04",
+      "id": "a2cda8df-2829-43af-822b-ffdd82a63a35",
+      "day_type": "side_project",
+      "billable_hours": 0.0,
+      "side_project_hours": 9.2
+    },
+    {
+      "date": "2025-06-05",
+      "id": "1e8ef415-0aa7-46ed-b6ad-8aad2f18a770",
+      "day_type": "side_project",
+      "billable_hours": 0.0,
+      "side_project_hours": 8.2
+    },
+    {
+      "date": "2025-06-06",
+      "id": "bdc6a499-29cb-4cf5-9994-1a9fdc71afa3",
+      "day_type": "side_project",
+      "billable_hours": 0.0,
+      "side_project_hours": 4.9
+    },
+    {
+      "date": "2025-06-09",
+      "id": "b7712284-c2db-4114-9ea5-6321c682df68",
+      "day_type": "client",
+      "billable_hours": 5.4,
+      "side_project_hours": 0.0
+    },
+    {
+      "date": "2025-06-10",
+      "id": "b6b3d9bc-cfaf-47d3-80a5-a8e5f5c0cba6",
+      "day_type": "client",
+      "billable_hours": 8.2,
+      "side_project_hours": 0.0
+    },
+    {
+      "date": "2025-06-11",
+      "id": "719083d0-6fa7-40fe-ab81-445677331f87",
+      "day_type": "client",
+      "billable_hours": 6.6,
+      "side_project_hours": 0.0
+    },
+    {
+      "date": "2025-06-12",
+      "id": "7f2cf43c-ef95-43cf-a98e-b42f0f31cc58",
+      "day_type": "client",
+      "billable_hours": 8.3,
+      "side_project_hours": 0.0
+    },
+    {
+      "date": "2025-06-13",
+      "id": "b9fe0bd0-80b0-4b03-9744-eee302671252",
+      "day_type": "client",
+      "billable_hours": 4.0,
+      "side_project_hours": 0.0
+    },
+    {
+      "date": "2025-06-16",
+      "id": "c2ffd769-41c7-45ba-8c1d-25a34c6e074d",
+      "day_type": "side_project",
+      "billable_hours": 0.0,
+      "side_project_hours": 4.0
+    },
+    {
+      "date": "2025-06-17",
+      "id": "61dc19a8-e76d-4a4d-984e-4aa148712b17",
+      "day_type": "side_project",
+      "billable_hours": 0.0,
+      "side_project_hours": 9.6
+    },
+    {
+      "date": "2025-06-18",
+      "id": "9702dd9d-200e-47df-8d63-ee7d524f61ac",
+      "day_type": "side_project",
+      "billable_hours": 0.0,
+      "side_project_hours": 8.1
+    },
+    {
+      "date": "2025-06-19",
+      "id": "f23abbcc-ae96-4ddf-b1ec-2d16f1a98c10",
+      "day_type": "side_project",
+      "billable_hours": 0.0,
+      "side_project_hours": 7.3
+    },
+    {
+      "date": "2025-06-20",
+      "id": "a8768073-96e0-4bea-b3c9-12d3a968aace",
+      "day_type": "side_project",
+      "billable_hours": 0.0,
+      "side_project_hours": 3.7
+    },
+    {
+      "date": "2025-06-23",
+      "id": "adc66ad4-f338-444f-a992-73590b8183de",
+      "day_type": "side_project",
+      "billable_hours": 0.0,
+      "side_project_hours": 7.5
+    },
+    {
+      "date": "2025-06-24",
+      "id": "04002219-3098-4de4-b7e1-8d2514ff81bc",
+      "day_type": "side_project",
+      "billable_hours": 0.0,
+      "side_project_hours": 6.7
+    },
+    {
+      "date": "2025-06-25",
+      "id": "bf268f9c-04b4-443c-8343-6b0663bac328",
+      "day_type": "side_project",
+      "billable_hours": 0.0,
+      "side_project_hours": 6.7
+    },
+    {
+      "date": "2025-06-26",
+      "id": "af44c76a-4248-4755-bd05-6445074c870a",
+      "day_type": "side_project",
+      "billable_hours": 0.0,
+      "side_project_hours": 7.0
+    },
+    {
+      "date": "2025-06-27",
+      "id": "06f86db7-9c77-4eb6-9344-b875b2806d60",
+      "day_type": "client",
+      "billable_hours": 3.8,
+      "side_project_hours": 0.0
+    },
+    {
+      "date": "2025-06-30",
+      "id": "c53ea37b-3a4c-45c7-a95a-cacd086e5296",
+      "day_type": "side_project",
+      "billable_hours": 0.0,
+      "side_project_hours": 4.7
+    }
+  ],
+  "summary": {
+    "total_days": 21,
+    "client_days": 6,
+    "side_project_days": 15,
+    "mixed_days": 0
+  }
+}

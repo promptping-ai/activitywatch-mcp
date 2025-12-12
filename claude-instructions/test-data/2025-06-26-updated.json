@@ -1,0 +1,188 @@
+{
+  "date": "2025-06-26",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "09:00",
+    "endTime": "17:30",
+    "totalDurationMinutes": 510,
+    "billableHours": 0,
+    "sideProjectHours": 5.0,
+    "breakTimeMinutes": 60,
+    "clientHours": {
+      "personal": 5.0
+    }
+  },
+  "achievements": [
+    {
+      "type": "primary",
+      "title": "TimeStory MCP Markdown Import",
+      "description": "Successfully implemented and tested markdown import functionality for rich content storage",
+      "impact": "Enables comprehensive activity analysis with both structured and narrative data",
+      "ticketReference": "TS-196"
+    },
+    {
+      "type": "secondary",
+      "title": "Test Data Generation",
+      "description": "Created comprehensive test dataset for validation and demonstration",
+      "impact": "Improved testing coverage and user onboarding experience",
+      "ticketReference": "TS-197"
+    },
+    {
+      "type": "milestone",
+      "title": "End-to-End Workflow Validation",
+      "description": "Validated complete ActivityWatch \u2192 Claude \u2192 TimeStory workflow",
+      "impact": "Proven system reliability for production use",
+      "ticketReference": "WORKFLOW-001"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Morning Planning",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "durationMinutes": 30,
+      "category": "planning",
+      "description": "Review test plan and prioritize markdown import testing",
+      "tags": [
+        "planning",
+        "testing"
+      ]
+    },
+    {
+      "title": "Markdown Import Implementation",
+      "startTime": "09:30",
+      "endTime": "12:00",
+      "durationMinutes": 150,
+      "category": "side_project",
+      "description": "Implementing import_with_markdown tool and database schema updates",
+      "projectName": "TimeStory MCP",
+      "ticketReference": "TS-196",
+      "tags": [
+        "development",
+        "database",
+        "swift"
+      ],
+      "clientId": "personal"
+    },
+    {
+      "title": "Lunch & Walk",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "durationMinutes": 60,
+      "category": "break",
+      "description": "Lunch break with outdoor walk for mental clarity",
+      "tags": [
+        "break",
+        "health",
+        "outdoor"
+      ]
+    },
+    {
+      "title": "Testing & Validation",
+      "startTime": "13:00",
+      "endTime": "15:30",
+      "durationMinutes": 150,
+      "category": "side_project",
+      "description": "Comprehensive testing of markdown import and retrieval functionality",
+      "projectName": "TimeStory MCP",
+      "ticketReference": "TS-196",
+      "tags": [
+        "testing",
+        "validation",
+        "quality"
+      ],
+      "clientId": "personal"
+    },
+    {
+      "title": "Test Data Creation",
+      "startTime": "15:30",
+      "endTime": "17:30",
+      "durationMinutes": 120,
+      "category": "side_project",
+      "description": "Creating realistic test datasets for demonstration and validation",
+      "projectName": "Open Time Chat",
+      "ticketReference": "TS-197",
+      "tags": [
+        "data",
+        "testing",
+        "documentation"
+      ]
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 9200,
+    "restingHeartRate": 60,
+    "heartRateVariability": 48.1,
+    "activeEnergyKj": 2300,
+    "sleepDurationHours": 7.2,
+    "sleepQualityScore": 79,
+    "healthScore": 87
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "Implementation Success",
+      "description": "Successfully delivered complex markdown import feature with comprehensive testing",
+      "priority": "high"
+    },
+    {
+      "category": "development",
+      "title": "Database Schema Evolution",
+      "description": "Smooth database migration to support rich content storage",
+      "priority": "high"
+    },
+    {
+      "category": "health",
+      "title": "Active Thursday",
+      "description": "Higher step count and good HRV indicating strong energy levels",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 91,
+    "focusScore": 89,
+    "wellnessScore": 87,
+    "achievementLevel": 5,
+    "contextSwitches": 8
+  },
+  "gitlabActivity": {
+    "totalCommits": 6,
+    "totalLinesAdded": 245,
+    "totalLinesDeleted": 32,
+    "projectsWorkedOn": [
+      "TimeStory MCP",
+      "ActivityWatch MCP"
+    ],
+    "commits": [
+      {
+        "hash": "a1b2c3d4",
+        "message": "feat: Add markdown import functionality to TimeStory MCP",
+        "timestamp": "2025-06-26T10:45:00Z",
+        "project": "TimeStory MCP",
+        "additions": 89,
+        "deletions": 5
+      },
+      {
+        "hash": "e5f6g7h8",
+        "message": "test: Add comprehensive test coverage for markdown import",
+        "timestamp": "2025-06-26T14:20:00Z",
+        "project": "TimeStory MCP",
+        "additions": 156,
+        "deletions": 27
+      }
+    ]
+  },
+  "clientSummary": {
+    "personal": {
+      "hours": 5.0,
+      "projects": [
+        "TimeStory MCP"
+      ],
+      "tickets": [
+        "TS-196"
+      ]
+    }
+  },
+  "clientId": "personal"
+}

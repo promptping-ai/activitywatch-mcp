@@ -1,0 +1,149 @@
+{
+  "date": "2025-06-20",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "09:15",
+    "endTime": "16:07",
+    "totalDurationMinutes": 412,
+    "billableHours": 0,
+    "sideProjectHours": 1.8,
+    "breakTimeMinutes": 83,
+    "clientHours": {
+      "personal": 1.8
+    }
+  },
+  "achievements": [
+    {
+      "type": "primary",
+      "title": "Progress on Git MCP",
+      "description": "Completed code review",
+      "impact": "Improved reliability",
+      "ticketReference": "AC-535"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Morning Standup & Planning",
+      "startTime": "09:15",
+      "endTime": "09:45",
+      "durationMinutes": 30,
+      "category": "side_project",
+      "description": "Daily sync with team and priority setting",
+      "tags": [
+        "meeting",
+        "planning",
+        "team"
+      ],
+      "clientId": "personal"
+    },
+    {
+      "title": "Development: TimeStory MCP",
+      "startTime": "09:45",
+      "endTime": "12:18",
+      "durationMinutes": 153,
+      "category": "side_project",
+      "description": "Feature development and implementation on TimeStory MCP",
+      "projectName": "TimeStory MCP",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    },
+    {
+      "title": "Lunch Break",
+      "startTime": "12:18",
+      "endTime": "13:27",
+      "durationMinutes": 69,
+      "category": "break",
+      "description": "Lunch and walk",
+      "tags": [
+        "break",
+        "lunch",
+        "health"
+      ]
+    },
+    {
+      "title": "Documentation: ActivityWatch MCP",
+      "startTime": "13:27",
+      "endTime": "14:34",
+      "durationMinutes": 67,
+      "category": "side_project",
+      "description": "API documentation and usage guides for ActivityWatch MCP",
+      "projectName": "ActivityWatch MCP",
+      "tags": [
+        "documentation",
+        "writing",
+        "api"
+      ]
+    },
+    {
+      "title": "Short Break",
+      "startTime": "14:34",
+      "endTime": "14:49",
+      "durationMinutes": 14,
+      "category": "break",
+      "description": "Quick break",
+      "tags": [
+        "break",
+        "health"
+      ]
+    },
+    {
+      "title": "Team Meeting / Code Review",
+      "startTime": "14:49",
+      "endTime": "16:07",
+      "durationMinutes": 78,
+      "category": "side_project",
+      "description": "Collaborative session with team",
+      "projectName": "ActivityWatch MCP",
+      "tags": [
+        "meeting",
+        "review",
+        "collaboration"
+      ],
+      "clientId": "personal"
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 8522,
+    "restingHeartRate": 66,
+    "heartRateVariability": 43.7,
+    "activeEnergyKj": 1965,
+    "sleepDurationHours": 7.5,
+    "sleepQualityScore": 71,
+    "healthScore": 66
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "Steady Progress",
+      "description": "Consistent progress on ongoing projects",
+      "priority": "high"
+    },
+    {
+      "category": "health",
+      "title": "Work-Life Balance",
+      "description": "Adequate rest for productivity",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 88,
+    "focusScore": 84,
+    "wellnessScore": 66,
+    "achievementLevel": 4,
+    "contextSwitches": 19
+  },
+  "clientSummary": {
+    "personal": {
+      "hours": 1.8,
+      "projects": [
+        "ActivityWatch MCP"
+      ],
+      "tickets": []
+    }
+  },
+  "clientId": "personal"
+}

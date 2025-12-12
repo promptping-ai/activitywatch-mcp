@@ -1,0 +1,149 @@
+{
+  "date": "2025-06-30",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "09:15",
+    "endTime": "16:27",
+    "totalDurationMinutes": 432,
+    "billableHours": 0,
+    "sideProjectHours": 1.4,
+    "breakTimeMinutes": 68,
+    "clientHours": {
+      "personal": 1.4
+    }
+  },
+  "achievements": [
+    {
+      "type": "secondary",
+      "title": "Progress on TimeStory MCP",
+      "description": "Completed performance optimization",
+      "impact": "Improved reliability",
+      "ticketReference": "AC-731"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Morning Standup & Planning",
+      "startTime": "09:15",
+      "endTime": "09:45",
+      "durationMinutes": 30,
+      "category": "side_project",
+      "description": "Daily sync with team and priority setting",
+      "tags": [
+        "meeting",
+        "planning",
+        "team"
+      ],
+      "clientId": "personal"
+    },
+    {
+      "title": "Team Meeting / Code Review",
+      "startTime": "09:45",
+      "endTime": "10:38",
+      "durationMinutes": 53,
+      "category": "side_project",
+      "description": "Collaborative session with team",
+      "projectName": "TimeStory MCP",
+      "tags": [
+        "meeting",
+        "review",
+        "collaboration"
+      ],
+      "clientId": "personal"
+    },
+    {
+      "title": "Lunch Break",
+      "startTime": "10:38",
+      "endTime": "11:33",
+      "durationMinutes": 55,
+      "category": "break",
+      "description": "Lunch and walk",
+      "tags": [
+        "break",
+        "lunch",
+        "health"
+      ]
+    },
+    {
+      "title": "Development: TimeStory MCP",
+      "startTime": "11:33",
+      "endTime": "14:16",
+      "durationMinutes": 162,
+      "category": "side_project",
+      "description": "Feature development and implementation on TimeStory MCP",
+      "projectName": "TimeStory MCP",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    },
+    {
+      "title": "Short Break",
+      "startTime": "14:16",
+      "endTime": "14:29",
+      "durationMinutes": 13,
+      "category": "break",
+      "description": "Quick break",
+      "tags": [
+        "break",
+        "health"
+      ]
+    },
+    {
+      "title": "Documentation: Git MCP",
+      "startTime": "14:29",
+      "endTime": "16:27",
+      "durationMinutes": 117,
+      "category": "side_project",
+      "description": "API documentation and usage guides for Git MCP",
+      "projectName": "Git MCP",
+      "tags": [
+        "documentation",
+        "writing",
+        "api"
+      ]
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 5768,
+    "restingHeartRate": 60,
+    "heartRateVariability": 50.5,
+    "activeEnergyKj": 1350,
+    "sleepDurationHours": 7.4,
+    "sleepQualityScore": 84,
+    "healthScore": 64
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "Steady Progress",
+      "description": "Consistent progress on ongoing projects",
+      "priority": "high"
+    },
+    {
+      "category": "health",
+      "title": "Work-Life Balance",
+      "description": "Good recovery and energy levels",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 86,
+    "focusScore": 81,
+    "wellnessScore": 64,
+    "achievementLevel": 4,
+    "contextSwitches": 18
+  },
+  "clientSummary": {
+    "personal": {
+      "hours": 1.4,
+      "projects": [
+        "TimeStory MCP"
+      ],
+      "tickets": []
+    }
+  },
+  "clientId": "personal"
+}

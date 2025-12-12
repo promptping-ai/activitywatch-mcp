@@ -1,0 +1,157 @@
+{
+  "date": "2025-06-06",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "08:30",
+    "endTime": "15:41",
+    "totalDurationMinutes": 431,
+    "billableHours": 0.0,
+    "sideProjectHours": 4.9,
+    "breakTimeMinutes": 65
+  },
+  "achievements": [
+    {
+      "type": "secondary",
+      "title": "Progress on Git MCP",
+      "description": "Completed bug fixes",
+      "impact": "Improved performance",
+      "ticketReference": "AC-517"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Morning Standup & Planning",
+      "startTime": "08:30",
+      "endTime": "09:00",
+      "durationMinutes": 30,
+      "category": "meeting",
+      "description": "Daily sync with team and priority setting",
+      "tags": [
+        "meeting",
+        "planning",
+        "team"
+      ]
+    },
+    {
+      "title": "Development: TimeStory MCP",
+      "startTime": "09:00",
+      "endTime": "12:09",
+      "durationMinutes": 189,
+      "category": "side_project",
+      "description": "Feature development and implementation on TimeStory MCP",
+      "projectName": "TimeStory MCP",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    },
+    {
+      "title": "Lunch Break",
+      "startTime": "12:09",
+      "endTime": "13:14",
+      "durationMinutes": 65,
+      "category": "break",
+      "description": "Lunch break",
+      "tags": [
+        "break",
+        "lunch",
+        "health"
+      ]
+    },
+    {
+      "title": "Documentation: ActivityWatch MCP",
+      "startTime": "13:14",
+      "endTime": "15:01",
+      "durationMinutes": 106,
+      "category": "side_project",
+      "description": "API documentation and usage guides for ActivityWatch MCP",
+      "projectName": "ActivityWatch MCP",
+      "tags": [
+        "documentation",
+        "writing",
+        "api"
+      ]
+    },
+    {
+      "title": "Team Meeting / Code Review",
+      "startTime": "15:01",
+      "endTime": "15:41",
+      "durationMinutes": 39,
+      "category": "meeting",
+      "description": "Collaborative session with team",
+      "projectName": "TimeStory MCP",
+      "tags": [
+        "meeting",
+        "review",
+        "collaboration"
+      ]
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 5487,
+    "restingHeartRate": 60,
+    "heartRateVariability": 41.4,
+    "activeEnergyKj": 1309,
+    "sleepDurationHours": 7.4,
+    "sleepQualityScore": 71,
+    "healthScore": 55
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "Steady Progress",
+      "description": "Consistent progress on ongoing projects",
+      "priority": "high"
+    },
+    {
+      "category": "health",
+      "title": "Work-Life Balance",
+      "description": "Adequate rest for productivity",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 78,
+    "focusScore": 75,
+    "wellnessScore": 55,
+    "achievementLevel": 3,
+    "contextSwitches": 14
+  },
+  "gitlabActivity": {
+    "totalCommits": 3,
+    "totalLinesAdded": 119,
+    "totalLinesDeleted": 101,
+    "projectsWorkedOn": [
+      "Git MCP",
+      "ActivityWatch MCP"
+    ],
+    "commits": [
+      {
+        "hash": "01e3be5c",
+        "message": "fix: Update feature",
+        "timestamp": "2025-06-06T11:52:00Z",
+        "project": "ActivityWatch MCP",
+        "additions": 13,
+        "deletions": 26
+      },
+      {
+        "hash": "0cdb25f1",
+        "message": "fix: Update test",
+        "timestamp": "2025-06-06T09:58:00Z",
+        "project": "Git MCP",
+        "additions": 21,
+        "deletions": 22
+      },
+      {
+        "hash": "9e79bfee",
+        "message": "feat: Add test",
+        "timestamp": "2025-06-06T12:38:00Z",
+        "project": "Git MCP",
+        "additions": 36,
+        "deletions": 38
+      }
+    ]
+  }
+}

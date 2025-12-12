@@ -1,0 +1,176 @@
+{
+  "date": "2025-06-17",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "08:45",
+    "endTime": "20:12",
+    "totalDurationMinutes": 687,
+    "billableHours": 1.8,
+    "sideProjectHours": 7.8,
+    "breakTimeMinutes": 77
+  },
+  "achievements": [
+    {
+      "type": "primary",
+      "title": "Swift implementation and documentation",
+      "description": "Significant progress on ActivityWatch MCP, Swift Migration",
+      "impact": "Major feature implementation and improvements",
+      "ticketReference": "GIT-17"
+    },
+    {
+      "type": "secondary",
+      "title": "Progress on ActivityWatch MCP",
+      "description": "Completed code review",
+      "impact": "Improved reliability",
+      "ticketReference": "AC-233"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Morning Standup & Planning",
+      "startTime": "08:45",
+      "endTime": "09:15",
+      "durationMinutes": 30,
+      "category": "meeting",
+      "description": "Daily sync with team and priority setting",
+      "tags": [
+        "meeting",
+        "planning",
+        "team"
+      ]
+    },
+    {
+      "title": "Development: Swift Migration",
+      "startTime": "09:15",
+      "endTime": "13:08",
+      "durationMinutes": 233,
+      "category": "side_project",
+      "description": "Feature development and implementation on Swift Migration",
+      "projectName": "Swift Migration",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    },
+    {
+      "title": "Lunch Break",
+      "startTime": "13:08",
+      "endTime": "14:12",
+      "durationMinutes": 63,
+      "category": "break",
+      "description": "Lunch and walk",
+      "tags": [
+        "break",
+        "lunch",
+        "health"
+      ]
+    },
+    {
+      "title": "Debugging & Testing: Swift Migration",
+      "startTime": "14:12",
+      "endTime": "16:01",
+      "durationMinutes": 108,
+      "category": "client_work",
+      "description": "Investigating issues and implementing fixes for Swift Migration",
+      "projectName": "Swift Migration",
+      "tags": [
+        "debugging",
+        "testing",
+        "fixes"
+      ]
+    },
+    {
+      "title": "Short Break",
+      "startTime": "16:01",
+      "endTime": "16:15",
+      "durationMinutes": 14,
+      "category": "break",
+      "description": "Quick break",
+      "tags": [
+        "break",
+        "health"
+      ]
+    },
+    {
+      "title": "Development: ActivityWatch MCP",
+      "startTime": "16:15",
+      "endTime": "20:12",
+      "durationMinutes": 236,
+      "category": "side_project",
+      "description": "Feature development and implementation on ActivityWatch MCP",
+      "projectName": "ActivityWatch MCP",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 8576,
+    "restingHeartRate": 64,
+    "heartRateVariability": 39.7,
+    "activeEnergyKj": 2308,
+    "sleepDurationHours": 6.8,
+    "sleepQualityScore": 79,
+    "healthScore": 68
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "Development Focus",
+      "description": "High-impact development day",
+      "priority": "high"
+    },
+    {
+      "category": "health",
+      "title": "Work-Life Balance",
+      "description": "Adequate rest for productivity",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 86,
+    "focusScore": 90,
+    "wellnessScore": 68,
+    "achievementLevel": 5,
+    "contextSwitches": 8
+  },
+  "gitlabActivity": {
+    "totalCommits": 7,
+    "totalLinesAdded": 882,
+    "totalLinesDeleted": 272,
+    "projectsWorkedOn": [
+      "ActivityWatch MCP",
+      "Swift Migration"
+    ],
+    "commits": [
+      {
+        "hash": "1fbd4ccc",
+        "message": "refactor: Fix error handling",
+        "timestamp": "2025-06-17T13:42:00Z",
+        "project": "ActivityWatch MCP",
+        "additions": 143,
+        "deletions": 46
+      },
+      {
+        "hash": "467ffb38",
+        "message": "refactor: Fix documentation",
+        "timestamp": "2025-06-17T16:16:00Z",
+        "project": "ActivityWatch MCP",
+        "additions": 38,
+        "deletions": 47
+      },
+      {
+        "hash": "3af18b71",
+        "message": "test: Add documentation",
+        "timestamp": "2025-06-17T13:32:00Z",
+        "project": "ActivityWatch MCP",
+        "additions": 200,
+        "deletions": 38
+      }
+    ]
+  }
+}

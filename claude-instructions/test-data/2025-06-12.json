@@ -1,0 +1,134 @@
+{
+  "date": "2025-06-12",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "09:00",
+    "endTime": "19:06",
+    "totalDurationMinutes": 606,
+    "billableHours": 8.3,
+    "sideProjectHours": 0.0,
+    "breakTimeMinutes": 75
+  },
+  "achievements": [
+    {
+      "type": "secondary",
+      "title": "Progress on Chameleon",
+      "description": "Completed bug fixes",
+      "impact": "Improved user experience",
+      "ticketReference": "CH-592"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Morning Standup & Planning",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "durationMinutes": 30,
+      "category": "meeting",
+      "description": "Daily sync with team and priority setting",
+      "tags": [
+        "meeting",
+        "planning",
+        "team"
+      ]
+    },
+    {
+      "title": "Development: CueApp iOS",
+      "startTime": "09:30",
+      "endTime": "13:22",
+      "durationMinutes": 232,
+      "category": "client_work",
+      "description": "Feature development and implementation on CueApp iOS",
+      "projectName": "CueApp iOS",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    },
+    {
+      "title": "Lunch Break",
+      "startTime": "13:22",
+      "endTime": "14:25",
+      "durationMinutes": 63,
+      "category": "break",
+      "description": "Lunch break",
+      "tags": [
+        "break",
+        "lunch",
+        "health"
+      ]
+    },
+    {
+      "title": "Debugging & Testing: CueApp iOS",
+      "startTime": "14:25",
+      "endTime": "15:27",
+      "durationMinutes": 61,
+      "category": "client_work",
+      "description": "Investigating issues and implementing fixes for CueApp iOS",
+      "projectName": "CueApp iOS",
+      "tags": [
+        "debugging",
+        "testing",
+        "fixes"
+      ]
+    },
+    {
+      "title": "Short Break",
+      "startTime": "15:27",
+      "endTime": "15:39",
+      "durationMinutes": 12,
+      "category": "break",
+      "description": "Quick break",
+      "tags": [
+        "break",
+        "health"
+      ]
+    },
+    {
+      "title": "Development: CueApp iOS",
+      "startTime": "15:39",
+      "endTime": "19:06",
+      "durationMinutes": 207,
+      "category": "client_work",
+      "description": "Feature development and implementation on CueApp iOS",
+      "projectName": "CueApp iOS",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 9656,
+    "restingHeartRate": 63,
+    "heartRateVariability": 38.9,
+    "activeEnergyKj": 2500,
+    "sleepDurationHours": 6.9,
+    "sleepQualityScore": 78,
+    "healthScore": 71
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "Development Focus",
+      "description": "Consistent progress on ongoing projects",
+      "priority": "high"
+    },
+    {
+      "category": "health",
+      "title": "Work-Life Balance",
+      "description": "Adequate rest for productivity",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 82,
+    "focusScore": 86,
+    "wellnessScore": 71,
+    "achievementLevel": 3,
+    "contextSwitches": 11
+  }
+}

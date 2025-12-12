@@ -1,0 +1,170 @@
+{
+  "date": "2025-06-02",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "09:15",
+    "endTime": "16:28",
+    "totalDurationMinutes": 433,
+    "billableHours": 0.0,
+    "sideProjectHours": 4.7,
+    "breakTimeMinutes": 79
+  },
+  "achievements": [
+    {
+      "type": "secondary",
+      "title": "Progress on Git MCP",
+      "description": "Completed code review",
+      "impact": "Improved performance",
+      "ticketReference": "AC-458"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Morning Standup & Planning",
+      "startTime": "09:15",
+      "endTime": "09:45",
+      "durationMinutes": 30,
+      "category": "meeting",
+      "description": "Daily sync with team and priority setting",
+      "tags": [
+        "meeting",
+        "planning",
+        "team"
+      ]
+    },
+    {
+      "title": "Team Meeting / Code Review",
+      "startTime": "09:45",
+      "endTime": "10:28",
+      "durationMinutes": 43,
+      "category": "meeting",
+      "description": "Collaborative session with team",
+      "projectName": "ActivityWatch MCP",
+      "tags": [
+        "meeting",
+        "review",
+        "collaboration"
+      ]
+    },
+    {
+      "title": "Lunch Break",
+      "startTime": "10:28",
+      "endTime": "11:34",
+      "durationMinutes": 65,
+      "category": "break",
+      "description": "Lunch break",
+      "tags": [
+        "break",
+        "lunch",
+        "health"
+      ]
+    },
+    {
+      "title": "Development: TimeStory MCP",
+      "startTime": "11:34",
+      "endTime": "14:37",
+      "durationMinutes": 183,
+      "category": "side_project",
+      "description": "Feature development and implementation on TimeStory MCP",
+      "projectName": "TimeStory MCP",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    },
+    {
+      "title": "Short Break",
+      "startTime": "14:37",
+      "endTime": "14:51",
+      "durationMinutes": 14,
+      "category": "break",
+      "description": "Quick break",
+      "tags": [
+        "break",
+        "health"
+      ]
+    },
+    {
+      "title": "Documentation: Git MCP",
+      "startTime": "14:51",
+      "endTime": "16:28",
+      "durationMinutes": 97,
+      "category": "side_project",
+      "description": "API documentation and usage guides for Git MCP",
+      "projectName": "Git MCP",
+      "tags": [
+        "documentation",
+        "writing",
+        "api"
+      ]
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 6926,
+    "restingHeartRate": 61,
+    "heartRateVariability": 41.4,
+    "activeEnergyKj": 1532,
+    "sleepDurationHours": 6.9,
+    "sleepQualityScore": 74,
+    "healthScore": 61
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "Development Focus",
+      "description": "Consistent progress on ongoing projects",
+      "priority": "high"
+    },
+    {
+      "category": "health",
+      "title": "Work-Life Balance",
+      "description": "Adequate rest for productivity",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 87,
+    "focusScore": 86,
+    "wellnessScore": 61,
+    "achievementLevel": 3,
+    "contextSwitches": 8
+  },
+  "gitlabActivity": {
+    "totalCommits": 6,
+    "totalLinesAdded": 298,
+    "totalLinesDeleted": 100,
+    "projectsWorkedOn": [
+      "Git MCP",
+      "TimeStory MCP",
+      "ActivityWatch MCP"
+    ],
+    "commits": [
+      {
+        "hash": "a28af8ac",
+        "message": "fix: Update bug",
+        "timestamp": "2025-06-02T10:29:00Z",
+        "project": "Git MCP",
+        "additions": 130,
+        "deletions": 5
+      },
+      {
+        "hash": "d40fffd9",
+        "message": "feat: Update bug",
+        "timestamp": "2025-06-02T10:42:00Z",
+        "project": "ActivityWatch MCP",
+        "additions": 69,
+        "deletions": 36
+      },
+      {
+        "hash": "f74f795d",
+        "message": "feat: Add test",
+        "timestamp": "2025-06-02T10:44:00Z",
+        "project": "TimeStory MCP",
+        "additions": 37,
+        "deletions": 33
+      }
+    ]
+  }
+}

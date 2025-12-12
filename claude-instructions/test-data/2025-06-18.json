@@ -1,0 +1,157 @@
+{
+  "date": "2025-06-18",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "09:00",
+    "endTime": "18:46",
+    "totalDurationMinutes": 586,
+    "billableHours": 1.4,
+    "sideProjectHours": 6.7,
+    "breakTimeMinutes": 68
+  },
+  "achievements": [
+    {
+      "type": "primary",
+      "title": "Progress on Git MCP",
+      "description": "Completed code review",
+      "impact": "Improved code quality",
+      "ticketReference": "AC-185"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Morning Standup & Planning",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "durationMinutes": 30,
+      "category": "meeting",
+      "description": "Daily sync with team and priority setting",
+      "tags": [
+        "meeting",
+        "planning",
+        "team"
+      ]
+    },
+    {
+      "title": "Development: TimeStory MCP",
+      "startTime": "09:30",
+      "endTime": "12:55",
+      "durationMinutes": 205,
+      "category": "side_project",
+      "description": "Feature development and implementation on TimeStory MCP",
+      "projectName": "TimeStory MCP",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    },
+    {
+      "title": "Lunch Break",
+      "startTime": "12:55",
+      "endTime": "14:04",
+      "durationMinutes": 68,
+      "category": "break",
+      "description": "Lunch and walk",
+      "tags": [
+        "break",
+        "lunch",
+        "health"
+      ]
+    },
+    {
+      "title": "Debugging & Testing: Git MCP",
+      "startTime": "14:04",
+      "endTime": "15:30",
+      "durationMinutes": 85,
+      "category": "client_work",
+      "description": "Investigating issues and implementing fixes for Git MCP",
+      "projectName": "Git MCP",
+      "tags": [
+        "debugging",
+        "testing",
+        "fixes"
+      ]
+    },
+    {
+      "title": "Development: Git MCP",
+      "startTime": "15:30",
+      "endTime": "18:46",
+      "durationMinutes": 196,
+      "category": "side_project",
+      "description": "Feature development and implementation on Git MCP",
+      "projectName": "Git MCP",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 5329,
+    "restingHeartRate": 67,
+    "heartRateVariability": 40.0,
+    "activeEnergyKj": 1316,
+    "sleepDurationHours": 7.0,
+    "sleepQualityScore": 80,
+    "healthScore": 57
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "Development Focus",
+      "description": "Consistent progress on ongoing projects",
+      "priority": "high"
+    },
+    {
+      "category": "health",
+      "title": "Work-Life Balance",
+      "description": "Adequate rest for productivity",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 92,
+    "focusScore": 87,
+    "wellnessScore": 57,
+    "achievementLevel": 4,
+    "contextSwitches": 8
+  },
+  "gitlabActivity": {
+    "totalCommits": 6,
+    "totalLinesAdded": 370,
+    "totalLinesDeleted": 76,
+    "projectsWorkedOn": [
+      "Git MCP",
+      "ActivityWatch MCP"
+    ],
+    "commits": [
+      {
+        "hash": "846ee5a0",
+        "message": "feat: Add feature",
+        "timestamp": "2025-06-18T12:15:00Z",
+        "project": "ActivityWatch MCP",
+        "additions": 106,
+        "deletions": 20
+      },
+      {
+        "hash": "e7afe203",
+        "message": "feat: Fix feature",
+        "timestamp": "2025-06-18T11:02:00Z",
+        "project": "ActivityWatch MCP",
+        "additions": 92,
+        "deletions": 9
+      },
+      {
+        "hash": "706f4c2a",
+        "message": "feat: Fix feature",
+        "timestamp": "2025-06-18T11:41:00Z",
+        "project": "Git MCP",
+        "additions": 96,
+        "deletions": 32
+      }
+    ]
+  }
+}

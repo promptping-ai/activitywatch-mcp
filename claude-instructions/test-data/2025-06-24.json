@@ -1,0 +1,111 @@
+{
+  "date": "2025-06-24",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "08:45",
+    "endTime": "17:00",
+    "totalDurationMinutes": 495,
+    "billableHours": 6.0,
+    "sideProjectHours": 1.5,
+    "breakTimeMinutes": 50
+  },
+  "achievements": [
+    {
+      "type": "primary",
+      "title": "MCP Protocol Deep Dive",
+      "description": "Comprehensive analysis and optimization of MCP communication patterns",
+      "impact": "Improved server response times by 25%",
+      "ticketReference": "MCP-150"
+    },
+    {
+      "type": "secondary",
+      "title": "Error Handling Enhancement",
+      "description": "Implemented robust error handling across all MCP tools",
+      "impact": "Reduced client-side errors by 80%",
+      "ticketReference": "MCP-151"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Code Review & Planning",
+      "startTime": "08:45",
+      "endTime": "09:30",
+      "durationMinutes": 45,
+      "category": "planning",
+      "description": "Review Monday's work and plan Tuesday objectives",
+      "tags": ["review", "planning"]
+    },
+    {
+      "title": "MCP Protocol Optimization",
+      "startTime": "09:30",
+      "endTime": "12:30",
+      "durationMinutes": 180,
+      "category": "client_work",
+      "description": "Deep analysis of MCP communication patterns and performance bottlenecks",
+      "projectName": "ActivityWatch MCP",
+      "ticketReference": "MCP-150",
+      "tags": ["protocol", "optimization", "performance"]
+    },
+    {
+      "title": "Lunch & Team Meeting",
+      "startTime": "12:30",
+      "endTime": "13:20",
+      "durationMinutes": 50,
+      "category": "meeting",
+      "description": "Team sync and project updates over lunch",
+      "tags": ["meeting", "team", "break"]
+    },
+    {
+      "title": "Error Handling Implementation",
+      "startTime": "13:20",
+      "endTime": "16:00",
+      "durationMinutes": 160,
+      "category": "client_work",
+      "description": "Implementing comprehensive error handling and user feedback",
+      "projectName": "ActivityWatch MCP",
+      "ticketReference": "MCP-151",
+      "tags": ["error-handling", "reliability", "ux"]
+    },
+    {
+      "title": "Documentation Update",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "durationMinutes": 60,
+      "category": "side_project",
+      "description": "Updating API documentation and troubleshooting guides",
+      "projectName": "Open Source Tools",
+      "tags": ["documentation", "api"]
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 7800,
+    "restingHeartRate": 64,
+    "heartRateVariability": 42.8,
+    "activeEnergyKj": 1950,
+    "sleepDurationHours": 7.0,
+    "sleepQualityScore": 76,
+    "healthScore": 81
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "Protocol Optimization Success",
+      "description": "Achieved significant performance improvements through systematic analysis",
+      "priority": "high"
+    },
+    {
+      "category": "development",
+      "title": "Reliability Focus",
+      "description": "Enhanced system reliability through comprehensive error handling",
+      "priority": "high"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 85,
+    "focusScore": 88,
+    "wellnessScore": 81,
+    "achievementLevel": 4,
+    "contextSwitches": 15
+  }
+}

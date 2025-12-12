@@ -1,0 +1,149 @@
+{
+  "date": "2025-06-25",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "09:15",
+    "endTime": "17:45",
+    "totalDurationMinutes": 510,
+    "billableHours": 4.5,
+    "sideProjectHours": 4.0,
+    "breakTimeMinutes": 65
+  },
+  "achievements": [
+    {
+      "type": "primary",
+      "title": "TimeStory MCP Database Migration",
+      "description": "Successfully migrated database schema to support markdown content storage",
+      "impact": "Enables rich content storage alongside structured timesheet data",
+      "ticketReference": "TS-190"
+    },
+    {
+      "type": "secondary",
+      "title": "Integration Testing Framework",
+      "description": "Developed comprehensive testing framework for MCP server validation",
+      "impact": "Reduced regression risk and improved deployment confidence",
+      "ticketReference": "TEST-045"
+    },
+    {
+      "type": "milestone",
+      "title": "Cross-Tool Compatibility",
+      "description": "Achieved seamless integration between ActivityWatch and TimeStory MCPs",
+      "impact": "Complete workflow automation for productivity tracking",
+      "ticketReference": "INTEGRATION-001"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Database Schema Planning",
+      "startTime": "09:15",
+      "endTime": "10:00",
+      "durationMinutes": 45,
+      "category": "planning",
+      "description": "Planning database migration strategy for markdown content support",
+      "tags": ["database", "planning", "architecture"]
+    },
+    {
+      "title": "GRDB Migration Implementation",
+      "startTime": "10:00",
+      "endTime": "12:30",
+      "durationMinutes": 150,
+      "category": "client_work",
+      "description": "Implementing database schema changes using GRDB migration patterns",
+      "projectName": "TimeStory MCP",
+      "ticketReference": "TS-190",
+      "tags": ["database", "grdb", "migration", "swift"]
+    },
+    {
+      "title": "Extended Lunch & Walk",
+      "startTime": "12:30",
+      "endTime": "13:35",
+      "durationMinutes": 65,
+      "category": "break",
+      "description": "Long lunch break with nature walk for mental refresh",
+      "tags": ["break", "health", "nature", "mental-health"]
+    },
+    {
+      "title": "Integration Testing Development",
+      "startTime": "13:35",
+      "endTime": "16:15",
+      "durationMinutes": 160,
+      "category": "side_project",
+      "description": "Building comprehensive testing framework for MCP server integration",
+      "projectName": "Open Source Tools",
+      "ticketReference": "TEST-045",
+      "tags": ["testing", "framework", "integration", "automation"]
+    },
+    {
+      "title": "Cross-Tool Validation",
+      "startTime": "16:15",
+      "endTime": "17:45",
+      "durationMinutes": 90,
+      "category": "side_project",
+      "description": "Testing and validating ActivityWatch to TimeStory data flow",
+      "projectName": "Open Time Chat",
+      "ticketReference": "INTEGRATION-001",
+      "tags": ["integration", "validation", "workflow"]
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 10200,
+    "restingHeartRate": 58,
+    "heartRateVariability": 51.3,
+    "activeEnergyKj": 2450,
+    "sleepDurationHours": 8.2,
+    "sleepQualityScore": 88,
+    "healthScore": 92
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "Balanced Work Distribution",
+      "description": "Optimal balance between client work and side project development",
+      "priority": "high"
+    },
+    {
+      "category": "health",
+      "title": "Exceptional Recovery Day",
+      "description": "Outstanding sleep quality and physical activity boost overall performance",
+      "priority": "high"
+    },
+    {
+      "category": "development",
+      "title": "Architecture Evolution",
+      "description": "Successful database evolution maintains backward compatibility",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 93,
+    "focusScore": 91,
+    "wellnessScore": 92,
+    "achievementLevel": 5,
+    "contextSwitches": 6
+  },
+  "gitlabActivity": {
+    "totalCommits": 8,
+    "totalLinesAdded": 312,
+    "totalLinesDeleted": 45,
+    "projectsWorkedOn": ["TimeStory MCP", "Testing Framework"],
+    "commits": [
+      {
+        "hash": "x1y2z3a4",
+        "message": "feat: Add database migration for markdown content storage",
+        "timestamp": "2025-06-25T11:30:00Z",
+        "project": "TimeStory MCP",
+        "additions": 127,
+        "deletions": 12
+      },
+      {
+        "hash": "b5c6d7e8",
+        "message": "test: Implement comprehensive MCP integration testing framework",
+        "timestamp": "2025-06-25T15:45:00Z",
+        "project": "Testing Framework",
+        "additions": 185,
+        "deletions": 33
+      }
+    ]
+  }
+}

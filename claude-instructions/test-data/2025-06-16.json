@@ -1,0 +1,122 @@
+{
+  "date": "2025-06-16",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "08:30",
+    "endTime": "15:26",
+    "totalDurationMinutes": 416,
+    "billableHours": 0.0,
+    "sideProjectHours": 4.0,
+    "breakTimeMinutes": 59
+  },
+  "achievements": [
+    {
+      "type": "secondary",
+      "title": "Progress on ActivityWatch MCP",
+      "description": "Completed bug fixes",
+      "impact": "Improved code quality",
+      "ticketReference": "AC-909"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Morning Standup & Planning",
+      "startTime": "08:30",
+      "endTime": "09:00",
+      "durationMinutes": 30,
+      "category": "meeting",
+      "description": "Daily sync with team and priority setting",
+      "tags": [
+        "meeting",
+        "planning",
+        "team"
+      ]
+    },
+    {
+      "title": "Team Meeting / Code Review",
+      "startTime": "09:00",
+      "endTime": "10:29",
+      "durationMinutes": 89,
+      "category": "meeting",
+      "description": "Collaborative session with team",
+      "projectName": "ActivityWatch MCP",
+      "tags": [
+        "meeting",
+        "review",
+        "collaboration"
+      ]
+    },
+    {
+      "title": "Lunch Break",
+      "startTime": "10:29",
+      "endTime": "11:28",
+      "durationMinutes": 59,
+      "category": "break",
+      "description": "Lunch break",
+      "tags": [
+        "break",
+        "lunch",
+        "health"
+      ]
+    },
+    {
+      "title": "Development: ActivityWatch MCP",
+      "startTime": "11:28",
+      "endTime": "13:58",
+      "durationMinutes": 150,
+      "category": "side_project",
+      "description": "Feature development and implementation on ActivityWatch MCP",
+      "projectName": "ActivityWatch MCP",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    },
+    {
+      "title": "Documentation: TimeStory MCP",
+      "startTime": "13:58",
+      "endTime": "15:26",
+      "durationMinutes": 88,
+      "category": "side_project",
+      "description": "API documentation and usage guides for TimeStory MCP",
+      "projectName": "TimeStory MCP",
+      "tags": [
+        "documentation",
+        "writing",
+        "api"
+      ]
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 7050,
+    "restingHeartRate": 61,
+    "heartRateVariability": 51.3,
+    "activeEnergyKj": 1847,
+    "sleepDurationHours": 8.0,
+    "sleepQualityScore": 81,
+    "healthScore": 67
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "Steady Progress",
+      "description": "Consistent progress on ongoing projects",
+      "priority": "high"
+    },
+    {
+      "category": "health",
+      "title": "Work-Life Balance",
+      "description": "Good recovery and energy levels",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 84,
+    "focusScore": 85,
+    "wellnessScore": 67,
+    "achievementLevel": 4,
+    "contextSwitches": 19
+  }
+}

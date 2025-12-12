@@ -1,0 +1,101 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-06-26",
+  "clients": {
+    "mediahuis": {
+      "name": "Mediahuis",
+      "displayName": "Mediahuis Group",
+      "color": "#FF6B6B",
+      "detection": {
+        "folders": [
+          "mediahuis",
+          "cueapp-ios",
+          "cueappandroid", 
+          "chameleon",
+          "frontend-chameleon",
+          "mehu-",
+          "-worktree-CA-",
+          "-worktree-APPS-"
+        ],
+        "projects": [
+          "Chameleon",
+          "CueApp iOS",
+          "CueApp Android",
+          "Sportify Swift"
+        ],
+        "gitlabPrefixes": [
+          "mobile/cueapp",
+          "mobile/chameleon",
+          "frontend/chameleon",
+          "mediahuis/"
+        ],
+        "ticketPrefixes": ["CA-", "APPS-", "CH-", "MEHU-"],
+        "tags": ["mediahuis", "client-mediahuis", "billable-mediahuis"]
+      }
+    },
+    "acme": {
+      "name": "ACME Corp",
+      "displayName": "ACME Corporation",
+      "color": "#4ECDC4",
+      "detection": {
+        "folders": [
+          "acme",
+          "acme-corp",
+          "acme-projects"
+        ],
+        "projects": [
+          "ACME Dashboard",
+          "ACME Mobile App",
+          "ACME API"
+        ],
+        "gitlabPrefixes": [
+          "acme/",
+          "acme-corp/"
+        ],
+        "ticketPrefixes": ["ACME-", "AC-"],
+        "tags": ["acme", "client-acme", "billable-acme"]
+      }
+    },
+    "personal": {
+      "name": "Personal",
+      "displayName": "Personal/Side Projects",
+      "color": "#95E1D3",
+      "isDefault": true,
+      "detection": {
+        "folders": [
+          "mcp",
+          "activitywatch-mcp",
+          "timestory-mcp",
+          "vital-flow-mcp",
+          "opens-time-chat",
+          "personal",
+          "side-projects"
+        ],
+        "projects": [
+          "ActivityWatch MCP",
+          "TimeStory MCP",
+          "Git MCP",
+          "VitalFlow MCP",
+          "Open Source Tools"
+        ],
+        "gitlabPrefixes": [
+          "doozMen/",
+          "personal/"
+        ],
+        "ticketPrefixes": ["MCP-", "TS-", "AW-", "GIT-"],
+        "tags": ["personal", "side-project", "non-billable", "opensource"]
+      }
+    }
+  },
+  "detectionPriority": [
+    "mediahuis",
+    "acme",
+    "personal"
+  ],
+  "settings": {
+    "defaultClient": "personal",
+    "allowMultipleClientsPerDay": true,
+    "minimumBillableMinutes": 15,
+    "roundBillableToNearest": 15
+  }
+}

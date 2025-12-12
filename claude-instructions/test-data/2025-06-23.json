@@ -1,0 +1,111 @@
+{
+  "date": "2025-06-23",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "08:30",
+    "endTime": "17:15",
+    "totalDurationMinutes": 525,
+    "billableHours": 6.5,
+    "sideProjectHours": 1.25,
+    "breakTimeMinutes": 45
+  },
+  "achievements": [
+    {
+      "type": "primary",
+      "title": "ActivityWatch MCP Integration",
+      "description": "Successfully integrated ActivityWatch with TimeStory MCP for comprehensive time tracking",
+      "impact": "Streamlined workflow for productivity analysis",
+      "ticketReference": "AW-101"
+    },
+    {
+      "type": "secondary", 
+      "title": "Database Schema Optimization",
+      "description": "Optimized GRDB schema for better performance with large datasets",
+      "impact": "30% improvement in query performance",
+      "ticketReference": "DB-205"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Morning Setup",
+      "startTime": "08:30",
+      "endTime": "09:00",
+      "durationMinutes": 30,
+      "category": "planning",
+      "description": "Daily standup and task prioritization",
+      "tags": ["meeting", "planning"]
+    },
+    {
+      "title": "ActivityWatch Integration",
+      "startTime": "09:00",
+      "endTime": "12:00", 
+      "durationMinutes": 180,
+      "category": "client_work",
+      "description": "Implementing MCP server connections and data flow",
+      "projectName": "ActivityWatch MCP",
+      "ticketReference": "AW-101",
+      "tags": ["development", "integration"]
+    },
+    {
+      "title": "Lunch Break",
+      "startTime": "12:00",
+      "endTime": "12:45",
+      "durationMinutes": 45,
+      "category": "break",
+      "description": "Lunch and short walk",
+      "tags": ["break", "health"]
+    },
+    {
+      "title": "Database Performance Work",
+      "startTime": "12:45",
+      "endTime": "16:00",
+      "durationMinutes": 195,
+      "category": "client_work", 
+      "description": "GRDB schema optimization and query performance testing",
+      "projectName": "TimeStory MCP",
+      "ticketReference": "DB-205",
+      "tags": ["database", "optimization"]
+    },
+    {
+      "title": "Documentation & Testing",
+      "startTime": "16:00",
+      "endTime": "17:15",
+      "durationMinutes": 75,
+      "category": "side_project",
+      "description": "Writing test plans and updating documentation",
+      "projectName": "Open Source Tools",
+      "tags": ["documentation", "testing"]
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 8450,
+    "restingHeartRate": 62,
+    "heartRateVariability": 45.2,
+    "activeEnergyKj": 2100,
+    "sleepDurationHours": 7.5,
+    "sleepQualityScore": 82,
+    "healthScore": 85
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "High Focus Monday",
+      "description": "Strong start to the week with deep work sessions on integration tasks",
+      "priority": "high"
+    },
+    {
+      "category": "health",
+      "title": "Good Sleep Recovery",
+      "description": "Weekend rest contributed to high energy levels and focus",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 88,
+    "focusScore": 92,
+    "wellnessScore": 85,
+    "achievementLevel": 4,
+    "contextSwitches": 12
+  }
+}
