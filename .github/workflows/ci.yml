@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  ci:
+    uses: promptping-ai/.github/.github/workflows/graphite-swift-ci.yml@main
+    secrets: inherit
+
+  rules:
+    uses: promptping-ai/.github/.github/workflows/swift-rules-check.yml@main
+
+  review:
+    if: github.event_name == 'pull_request' && github.event.action == 'opened'
+    uses: promptping-ai/.github/.github/workflows/swift-review.yml@main
+    secrets: inherit
