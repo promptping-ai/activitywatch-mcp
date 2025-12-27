@@ -1,0 +1,184 @@
+{
+  "date": "2025-06-09",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "09:15",
+    "endTime": "17:59",
+    "totalDurationMinutes": 524,
+    "billableHours": 1.9,
+    "sideProjectHours": 0,
+    "breakTimeMinutes": 81,
+    "clientHours": {
+      "mediahuis": 1.9
+    }
+  },
+  "achievements": [
+    {
+      "type": "secondary",
+      "title": "Progress on Sportify Swift",
+      "description": "Completed bug fixes",
+      "impact": "Improved reliability",
+      "ticketReference": "CH-307"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Morning Standup & Planning",
+      "startTime": "09:15",
+      "endTime": "09:45",
+      "durationMinutes": 30,
+      "category": "client_work",
+      "description": "Daily sync with team and priority setting",
+      "tags": [
+        "meeting",
+        "planning",
+        "team"
+      ],
+      "clientId": "mediahuis"
+    },
+    {
+      "title": "Team Meeting / Code Review",
+      "startTime": "09:45",
+      "endTime": "11:11",
+      "durationMinutes": 86,
+      "category": "client_work",
+      "description": "Collaborative session with team",
+      "projectName": "Sportify Swift",
+      "tags": [
+        "meeting",
+        "review",
+        "collaboration"
+      ],
+      "clientId": "mediahuis"
+    },
+    {
+      "title": "Lunch Break",
+      "startTime": "11:11",
+      "endTime": "12:22",
+      "durationMinutes": 70,
+      "category": "break",
+      "description": "Lunch break",
+      "tags": [
+        "break",
+        "lunch",
+        "health"
+      ]
+    },
+    {
+      "title": "Development: Sportify Swift",
+      "startTime": "12:22",
+      "endTime": "16:00",
+      "durationMinutes": 217,
+      "category": "side_project",
+      "description": "Feature development and implementation on Sportify Swift",
+      "projectName": "Sportify Swift",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    },
+    {
+      "title": "Short Break",
+      "startTime": "16:00",
+      "endTime": "16:11",
+      "durationMinutes": 11,
+      "category": "break",
+      "description": "Quick break",
+      "tags": [
+        "break",
+        "health"
+      ]
+    },
+    {
+      "title": "Documentation: Sportify Swift",
+      "startTime": "16:11",
+      "endTime": "17:59",
+      "durationMinutes": 107,
+      "category": "side_project",
+      "description": "API documentation and usage guides for Sportify Swift",
+      "projectName": "Sportify Swift",
+      "tags": [
+        "documentation",
+        "writing",
+        "api"
+      ]
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 8908,
+    "restingHeartRate": 66,
+    "heartRateVariability": 42.3,
+    "activeEnergyKj": 2411,
+    "sleepDurationHours": 6.6,
+    "sleepQualityScore": 77,
+    "healthScore": 69
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "Development Focus",
+      "description": "Consistent progress on ongoing projects",
+      "priority": "high"
+    },
+    {
+      "category": "health",
+      "title": "Work-Life Balance",
+      "description": "Adequate rest for productivity",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 90,
+    "focusScore": 88,
+    "wellnessScore": 69,
+    "achievementLevel": 4,
+    "contextSwitches": 11
+  },
+  "gitlabActivity": {
+    "totalCommits": 4,
+    "totalLinesAdded": 235,
+    "totalLinesDeleted": 72,
+    "projectsWorkedOn": [
+      "Chameleon",
+      "Sportify Swift"
+    ],
+    "commits": [
+      {
+        "hash": "1843390c",
+        "message": "fix: Update test",
+        "timestamp": "2025-06-09T13:32:00Z",
+        "project": "Sportify Swift",
+        "additions": 73,
+        "deletions": 13
+      },
+      {
+        "hash": "5f7a7b76",
+        "message": "fix: Fix bug",
+        "timestamp": "2025-06-09T16:39:00Z",
+        "project": "Chameleon",
+        "additions": 53,
+        "deletions": 31
+      },
+      {
+        "hash": "82856ce3",
+        "message": "fix: Fix test",
+        "timestamp": "2025-06-09T11:51:00Z",
+        "project": "Chameleon",
+        "additions": 30,
+        "deletions": 26
+      }
+    ]
+  },
+  "clientSummary": {
+    "mediahuis": {
+      "hours": 1.9,
+      "projects": [
+        "Sportify Swift"
+      ],
+      "tickets": []
+    }
+  },
+  "clientId": "mediahuis"
+}

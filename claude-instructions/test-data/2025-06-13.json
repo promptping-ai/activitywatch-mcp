@@ -1,0 +1,122 @@
+{
+  "date": "2025-06-13",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "08:30",
+    "endTime": "15:04",
+    "totalDurationMinutes": 394,
+    "billableHours": 2.7,
+    "sideProjectHours": 1.3,
+    "breakTimeMinutes": 64
+  },
+  "achievements": [
+    {
+      "type": "secondary",
+      "title": "Progress on Sportify Swift",
+      "description": "Completed performance optimization",
+      "impact": "Improved code quality",
+      "ticketReference": "CH-229"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Morning Standup & Planning",
+      "startTime": "08:30",
+      "endTime": "09:00",
+      "durationMinutes": 30,
+      "category": "meeting",
+      "description": "Daily sync with team and priority setting",
+      "tags": [
+        "meeting",
+        "planning",
+        "team"
+      ]
+    },
+    {
+      "title": "Development: CueApp iOS",
+      "startTime": "09:00",
+      "endTime": "11:43",
+      "durationMinutes": 163,
+      "category": "client_work",
+      "description": "Feature development and implementation on CueApp iOS",
+      "projectName": "CueApp iOS",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    },
+    {
+      "title": "Lunch Break",
+      "startTime": "11:43",
+      "endTime": "12:48",
+      "durationMinutes": 64,
+      "category": "break",
+      "description": "Lunch break",
+      "tags": [
+        "break",
+        "lunch",
+        "health"
+      ]
+    },
+    {
+      "title": "Documentation: Sportify Swift",
+      "startTime": "12:48",
+      "endTime": "14:06",
+      "durationMinutes": 78,
+      "category": "side_project",
+      "description": "API documentation and usage guides for Sportify Swift",
+      "projectName": "Sportify Swift",
+      "tags": [
+        "documentation",
+        "writing",
+        "api"
+      ]
+    },
+    {
+      "title": "Team Meeting / Code Review",
+      "startTime": "14:06",
+      "endTime": "15:04",
+      "durationMinutes": 57,
+      "category": "meeting",
+      "description": "Collaborative session with team",
+      "projectName": "Chameleon",
+      "tags": [
+        "meeting",
+        "review",
+        "collaboration"
+      ]
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 5861,
+    "restingHeartRate": 61,
+    "heartRateVariability": 42.9,
+    "activeEnergyKj": 1545,
+    "sleepDurationHours": 7.5,
+    "sleepQualityScore": 85,
+    "healthScore": 62
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "Steady Progress",
+      "description": "Consistent progress on ongoing projects",
+      "priority": "high"
+    },
+    {
+      "category": "health",
+      "title": "Work-Life Balance",
+      "description": "Good recovery and energy levels",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 82,
+    "focusScore": 80,
+    "wellnessScore": 62,
+    "achievementLevel": 4,
+    "contextSwitches": 14
+  }
+}

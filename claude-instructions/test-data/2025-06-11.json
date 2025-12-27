@@ -1,0 +1,134 @@
+{
+  "date": "2025-06-11",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "09:00",
+    "endTime": "17:15",
+    "totalDurationMinutes": 495,
+    "billableHours": 1.2,
+    "sideProjectHours": 5.5,
+    "breakTimeMinutes": 66
+  },
+  "achievements": [
+    {
+      "type": "primary",
+      "title": "Progress on Chameleon",
+      "description": "Completed code review",
+      "impact": "Improved performance",
+      "ticketReference": "CH-688"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Morning Standup & Planning",
+      "startTime": "09:00",
+      "endTime": "09:30",
+      "durationMinutes": 30,
+      "category": "meeting",
+      "description": "Daily sync with team and priority setting",
+      "tags": [
+        "meeting",
+        "planning",
+        "team"
+      ]
+    },
+    {
+      "title": "Development: Sportify Swift",
+      "startTime": "09:30",
+      "endTime": "12:10",
+      "durationMinutes": 160,
+      "category": "side_project",
+      "description": "Feature development and implementation on Sportify Swift",
+      "projectName": "Sportify Swift",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    },
+    {
+      "title": "Lunch Break",
+      "startTime": "12:10",
+      "endTime": "13:07",
+      "durationMinutes": 57,
+      "category": "break",
+      "description": "Lunch break",
+      "tags": [
+        "break",
+        "lunch",
+        "health"
+      ]
+    },
+    {
+      "title": "Debugging & Testing: Chameleon",
+      "startTime": "13:07",
+      "endTime": "14:19",
+      "durationMinutes": 71,
+      "category": "client_work",
+      "description": "Investigating issues and implementing fixes for Chameleon",
+      "projectName": "Chameleon",
+      "tags": [
+        "debugging",
+        "testing",
+        "fixes"
+      ]
+    },
+    {
+      "title": "Short Break",
+      "startTime": "14:19",
+      "endTime": "14:28",
+      "durationMinutes": 9,
+      "category": "break",
+      "description": "Quick break",
+      "tags": [
+        "break",
+        "health"
+      ]
+    },
+    {
+      "title": "Development: Sportify Swift",
+      "startTime": "14:28",
+      "endTime": "17:15",
+      "durationMinutes": 167,
+      "category": "side_project",
+      "description": "Feature development and implementation on Sportify Swift",
+      "projectName": "Sportify Swift",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 6999,
+    "restingHeartRate": 60,
+    "heartRateVariability": 48.4,
+    "activeEnergyKj": 1803,
+    "sleepDurationHours": 7.6,
+    "sleepQualityScore": 83,
+    "healthScore": 67
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "Steady Progress",
+      "description": "Consistent progress on ongoing projects",
+      "priority": "high"
+    },
+    {
+      "category": "health",
+      "title": "Work-Life Balance",
+      "description": "Good recovery and energy levels",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 86,
+    "focusScore": 82,
+    "wellnessScore": 67,
+    "achievementLevel": 4,
+    "contextSwitches": 15
+  }
+}

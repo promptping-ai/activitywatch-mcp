@@ -1,0 +1,169 @@
+{
+  "date": "2025-06-04",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "08:45",
+    "endTime": "19:24",
+    "totalDurationMinutes": 639,
+    "billableHours": 2.0,
+    "sideProjectHours": 7.2,
+    "breakTimeMinutes": 57
+  },
+  "achievements": [
+    {
+      "type": "primary",
+      "title": "Progress on ActivityWatch MCP",
+      "description": "Completed code review",
+      "impact": "Improved performance",
+      "ticketReference": "AC-945"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Morning Standup & Planning",
+      "startTime": "08:45",
+      "endTime": "09:15",
+      "durationMinutes": 30,
+      "category": "meeting",
+      "description": "Daily sync with team and priority setting",
+      "tags": [
+        "meeting",
+        "planning",
+        "team"
+      ]
+    },
+    {
+      "title": "Development: ActivityWatch MCP",
+      "startTime": "09:15",
+      "endTime": "12:28",
+      "durationMinutes": 193,
+      "category": "side_project",
+      "description": "Feature development and implementation on ActivityWatch MCP",
+      "projectName": "ActivityWatch MCP",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    },
+    {
+      "title": "Lunch Break",
+      "startTime": "12:28",
+      "endTime": "13:17",
+      "durationMinutes": 48,
+      "category": "break",
+      "description": "Lunch break",
+      "tags": [
+        "break",
+        "lunch",
+        "health"
+      ]
+    },
+    {
+      "title": "Debugging & Testing: ActivityWatch MCP",
+      "startTime": "13:17",
+      "endTime": "15:19",
+      "durationMinutes": 122,
+      "category": "client_work",
+      "description": "Investigating issues and implementing fixes for ActivityWatch MCP",
+      "projectName": "ActivityWatch MCP",
+      "tags": [
+        "debugging",
+        "testing",
+        "fixes"
+      ]
+    },
+    {
+      "title": "Short Break",
+      "startTime": "15:19",
+      "endTime": "15:28",
+      "durationMinutes": 9,
+      "category": "break",
+      "description": "Quick break",
+      "tags": [
+        "break",
+        "health"
+      ]
+    },
+    {
+      "title": "Development: ActivityWatch MCP",
+      "startTime": "15:28",
+      "endTime": "19:24",
+      "durationMinutes": 236,
+      "category": "side_project",
+      "description": "Feature development and implementation on ActivityWatch MCP",
+      "projectName": "ActivityWatch MCP",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 6622,
+    "restingHeartRate": 63,
+    "heartRateVariability": 42.5,
+    "activeEnergyKj": 1751,
+    "sleepDurationHours": 6.5,
+    "sleepQualityScore": 70,
+    "healthScore": 59
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "Development Focus",
+      "description": "Consistent progress on ongoing projects",
+      "priority": "high"
+    },
+    {
+      "category": "health",
+      "title": "Work-Life Balance",
+      "description": "Adequate rest for productivity",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 87,
+    "focusScore": 86,
+    "wellnessScore": 59,
+    "achievementLevel": 3,
+    "contextSwitches": 15
+  },
+  "gitlabActivity": {
+    "totalCommits": 4,
+    "totalLinesAdded": 346,
+    "totalLinesDeleted": 39,
+    "projectsWorkedOn": [
+      "Git MCP",
+      "ActivityWatch MCP"
+    ],
+    "commits": [
+      {
+        "hash": "e58002e7",
+        "message": "fix: Update test",
+        "timestamp": "2025-06-04T14:20:00Z",
+        "project": "Git MCP",
+        "additions": 121,
+        "deletions": 12
+      },
+      {
+        "hash": "2616a0ea",
+        "message": "feat: Fix bug",
+        "timestamp": "2025-06-04T14:55:00Z",
+        "project": "ActivityWatch MCP",
+        "additions": 103,
+        "deletions": 9
+      },
+      {
+        "hash": "e36fbeaa",
+        "message": "feat: Fix test",
+        "timestamp": "2025-06-04T10:16:00Z",
+        "project": "Git MCP",
+        "additions": 49,
+        "deletions": 16
+      }
+    ]
+  }
+}

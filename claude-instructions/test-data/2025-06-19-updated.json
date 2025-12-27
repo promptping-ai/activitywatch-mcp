@@ -1,0 +1,179 @@
+{
+  "date": "2025-06-19",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "09:15",
+    "endTime": "17:51",
+    "totalDurationMinutes": 516,
+    "billableHours": 0,
+    "sideProjectHours": 1.7,
+    "breakTimeMinutes": 48,
+    "clientHours": {
+      "personal": 1.7
+    }
+  },
+  "achievements": [
+    {
+      "type": "primary",
+      "title": "Natural language date parsing and bug fixes",
+      "description": "Significant progress on ActivityWatch MCP, DateUtil Swift",
+      "impact": "Major feature implementation and improvements",
+      "ticketReference": "GIT-19"
+    },
+    {
+      "type": "secondary",
+      "title": "Progress on ActivityWatch MCP",
+      "description": "Completed performance optimization",
+      "impact": "Improved user experience",
+      "ticketReference": "AC-534"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Morning Standup & Planning",
+      "startTime": "09:15",
+      "endTime": "09:45",
+      "durationMinutes": 30,
+      "category": "side_project",
+      "description": "Daily sync with team and priority setting",
+      "tags": [
+        "meeting",
+        "planning",
+        "team"
+      ],
+      "clientId": "personal"
+    },
+    {
+      "title": "Development: DateUtil Swift",
+      "startTime": "09:45",
+      "endTime": "12:40",
+      "durationMinutes": 175,
+      "category": "side_project",
+      "description": "Feature development and implementation on DateUtil Swift",
+      "projectName": "DateUtil Swift",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    },
+    {
+      "title": "Lunch Break",
+      "startTime": "12:40",
+      "endTime": "13:29",
+      "durationMinutes": 48,
+      "category": "break",
+      "description": "Lunch and walk",
+      "tags": [
+        "break",
+        "lunch",
+        "health"
+      ]
+    },
+    {
+      "title": "Debugging & Testing: DateUtil Swift",
+      "startTime": "13:29",
+      "endTime": "14:40",
+      "durationMinutes": 71,
+      "category": "side_project",
+      "description": "Investigating issues and implementing fixes for DateUtil Swift",
+      "projectName": "DateUtil Swift",
+      "tags": [
+        "debugging",
+        "testing",
+        "fixes"
+      ],
+      "clientId": "personal"
+    },
+    {
+      "title": "Development: ActivityWatch MCP",
+      "startTime": "14:40",
+      "endTime": "17:51",
+      "durationMinutes": 191,
+      "category": "side_project",
+      "description": "Feature development and implementation on ActivityWatch MCP",
+      "projectName": "ActivityWatch MCP",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ]
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 6931,
+    "restingHeartRate": 65,
+    "heartRateVariability": 42.1,
+    "activeEnergyKj": 1630,
+    "sleepDurationHours": 7.0,
+    "sleepQualityScore": 76,
+    "healthScore": 62
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "Development Focus",
+      "description": "High-impact development day",
+      "priority": "high"
+    },
+    {
+      "category": "health",
+      "title": "Work-Life Balance",
+      "description": "Adequate rest for productivity",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 89,
+    "focusScore": 90,
+    "wellnessScore": 62,
+    "achievementLevel": 5,
+    "contextSwitches": 14
+  },
+  "gitlabActivity": {
+    "totalCommits": 6,
+    "totalLinesAdded": 597,
+    "totalLinesDeleted": 203,
+    "projectsWorkedOn": [
+      "ActivityWatch MCP",
+      "DateUtil Swift"
+    ],
+    "commits": [
+      {
+        "hash": "baf986c2",
+        "message": "fix: Improve documentation",
+        "timestamp": "2025-06-19T09:54:00Z",
+        "project": "ActivityWatch MCP",
+        "additions": 128,
+        "deletions": 17
+      },
+      {
+        "hash": "f5c72a4a",
+        "message": "docs: Add documentation",
+        "timestamp": "2025-06-19T12:53:00Z",
+        "project": "DateUtil Swift",
+        "additions": 130,
+        "deletions": 39
+      },
+      {
+        "hash": "a538f7e2",
+        "message": "fix: Fix testing",
+        "timestamp": "2025-06-19T13:00:00Z",
+        "project": "DateUtil Swift",
+        "additions": 79,
+        "deletions": 21
+      }
+    ]
+  },
+  "clientSummary": {
+    "personal": {
+      "hours": 1.7,
+      "projects": [
+        "DateUtil Swift"
+      ],
+      "tickets": []
+    }
+  },
+  "clientId": "personal"
+}

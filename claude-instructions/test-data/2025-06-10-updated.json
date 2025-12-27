@@ -1,0 +1,175 @@
+{
+  "date": "2025-06-10",
+  "timezone": "Europe/Brussels",
+  "timeSummary": {
+    "startTime": "08:30",
+    "endTime": "18:10",
+    "totalDurationMinutes": 580,
+    "billableHours": 8.7,
+    "sideProjectHours": 0,
+    "breakTimeMinutes": 54,
+    "clientHours": {
+      "mediahuis": 8.7
+    }
+  },
+  "achievements": [
+    {
+      "type": "primary",
+      "title": "Progress on CueApp iOS",
+      "description": "Completed code review",
+      "impact": "Improved user experience",
+      "ticketReference": "CH-984"
+    }
+  ],
+  "timelinePhases": [
+    {
+      "title": "Morning Standup & Planning",
+      "startTime": "08:30",
+      "endTime": "09:00",
+      "durationMinutes": 30,
+      "category": "client_work",
+      "description": "Daily sync with team and priority setting",
+      "tags": [
+        "meeting",
+        "planning",
+        "team"
+      ],
+      "clientId": "mediahuis"
+    },
+    {
+      "title": "Development: Chameleon",
+      "startTime": "09:00",
+      "endTime": "12:10",
+      "durationMinutes": 190,
+      "category": "client_work",
+      "description": "Feature development and implementation on Chameleon",
+      "projectName": "Chameleon",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ],
+      "clientId": "mediahuis"
+    },
+    {
+      "title": "Lunch Break",
+      "startTime": "12:10",
+      "endTime": "13:05",
+      "durationMinutes": 54,
+      "category": "break",
+      "description": "Lunch and walk",
+      "tags": [
+        "break",
+        "lunch",
+        "health"
+      ]
+    },
+    {
+      "title": "Debugging & Testing: Sportify Swift",
+      "startTime": "13:05",
+      "endTime": "14:24",
+      "durationMinutes": 79,
+      "category": "client_work",
+      "description": "Investigating issues and implementing fixes for Sportify Swift",
+      "projectName": "Sportify Swift",
+      "tags": [
+        "debugging",
+        "testing",
+        "fixes"
+      ],
+      "clientId": "mediahuis"
+    },
+    {
+      "title": "Development: CueApp iOS",
+      "startTime": "14:24",
+      "endTime": "18:10",
+      "durationMinutes": 225,
+      "category": "client_work",
+      "description": "Feature development and implementation on CueApp iOS",
+      "projectName": "CueApp iOS",
+      "tags": [
+        "development",
+        "coding",
+        "feature"
+      ],
+      "clientId": "mediahuis"
+    }
+  ],
+  "healthMetrics": {
+    "dataAvailable": true,
+    "steps": 9388,
+    "restingHeartRate": 62,
+    "heartRateVariability": 47.2,
+    "activeEnergyKj": 2494,
+    "sleepDurationHours": 7.3,
+    "sleepQualityScore": 84,
+    "healthScore": 75
+  },
+  "insights": [
+    {
+      "category": "productivity",
+      "title": "Development Focus",
+      "description": "Consistent progress on ongoing projects",
+      "priority": "high"
+    },
+    {
+      "category": "health",
+      "title": "Work-Life Balance",
+      "description": "Good recovery and energy levels",
+      "priority": "medium"
+    }
+  ],
+  "metrics": {
+    "productivityScore": 83,
+    "focusScore": 88,
+    "wellnessScore": 75,
+    "achievementLevel": 3,
+    "contextSwitches": 15
+  },
+  "gitlabActivity": {
+    "totalCommits": 5,
+    "totalLinesAdded": 328,
+    "totalLinesDeleted": 104,
+    "projectsWorkedOn": [
+      "Sportify Swift"
+    ],
+    "commits": [
+      {
+        "hash": "c9ff890c",
+        "message": "fix: Fix test",
+        "timestamp": "2025-06-10T17:12:00Z",
+        "project": "Sportify Swift",
+        "additions": 81,
+        "deletions": 35
+      },
+      {
+        "hash": "3c1186b8",
+        "message": "feat: Add test",
+        "timestamp": "2025-06-10T14:40:00Z",
+        "project": "Sportify Swift",
+        "additions": 144,
+        "deletions": 26
+      },
+      {
+        "hash": "7c0a2d7a",
+        "message": "feat: Update feature",
+        "timestamp": "2025-06-10T11:44:00Z",
+        "project": "Sportify Swift",
+        "additions": 69,
+        "deletions": 32
+      }
+    ]
+  },
+  "clientSummary": {
+    "mediahuis": {
+      "hours": 8.7,
+      "projects": [
+        "CueApp iOS",
+        "Chameleon",
+        "Sportify Swift"
+      ],
+      "tickets": []
+    }
+  },
+  "clientId": "mediahuis"
+}
